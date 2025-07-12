@@ -13,7 +13,7 @@ def test_index_html_title():
     with open('website/index.html', 'r') as f:
         soup = BeautifulSoup(f, 'html.parser')
         title = soup.title.string
-        expected_title = "DevOps Portfolio - Firman Arya"
+        expected_title = "DevOps Portfolio - Aditya Pramana Henriyan"
         assert title == expected_title, f"Title salah! Harusnya '{expected_title}', tetapi mendapatkan '{title}'."
 
 
